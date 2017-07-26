@@ -51,4 +51,4 @@ Help to generate the TOC of the README.md of your project
 ## Usage
 Copy the ```README.md``` to the folder.  
 If README.md.bak already exist before generating the TOC, please delete the old README.md.bak.
-Then you can exec ```Python3 genTOC.py```
+Then you can exec ```Python3 genTOC.py``` or ```run.bat``` in Windows OS.
