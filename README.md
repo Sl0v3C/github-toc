@@ -49,6 +49,6 @@ Help to generate the TOC of the README.md of your project
 ##### level 5 1st  
 ###### level 6 1st  
 ## Usage
-Copy the README.md to the folder with genTOC.py.
+Copy the ```README.md``` to the folder.  
 If README.md.bak already exist before generating the TOC, please delete the old README.md.bak.
 Then you can exec ```Python3 genTOC.py```
