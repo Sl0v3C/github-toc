@@ -70,11 +70,11 @@ def findTitle(NO, string, LEVEL):
         enqueue(each, title_dict)
 
 def genTOC(content, org):
-    string = ""
+    string = "# Content  \n"
     count_list = [0, 0, 0, 0, 0,]
     for i, v in enumerate(content):
         if list(v.keys())[0] == 1:
-            string = LEVEL1 + list(org[i].values())[0] + '](#' + list(v.values())[0] + ')' + "  \n"
+            string += LEVEL1 + list(org[i].values())[0] + '](#' + list(v.values())[0] + ')' + "  \n"
         elif list(v.keys())[0] == 2:
             count_list[0] += 1
             count_list[1] = 0
