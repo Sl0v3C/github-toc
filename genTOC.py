@@ -7,7 +7,7 @@ FOURTH = re.compile('^#### ')
 FIFTH = re.compile('^##### ')
 SIXTH = re.compile('^###### ')
 
-DELETE = re.compile('\(|\)|\/')
+DELETE = re.compile('\.|\(|\)|\/')
 SPACE = re.compile(' ')
 DELSPACE = re.compile('^ *| *$')
 NEWLINE = re.compile('\n')
